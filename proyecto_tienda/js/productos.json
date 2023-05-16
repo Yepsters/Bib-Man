@@ -1,0 +1,12 @@
+[
+    {
+        "id": "abrigo-01",
+        "titulo": "Mochila",
+        "imagen": "./img/02.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000
+    }
+]

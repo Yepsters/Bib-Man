@@ -1,0 +1,93 @@
+/* Estilos generales */
+
+:root {
+    --clr-main: #004aad;
+    --clr-main-light: #add9fe;
+    --clr-white: #ececec;
+    --clr-gray: #e2e2e2;
+    --clr-red: #961818;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI', sans-serif;
+	color: #333;
+}
+
+main {
+	height: calc(100vh - 70px);
+	display: flex;
+	align-items: center;
+	background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23857AFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 600px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.logo {
+    margin-top: -150px;
+	margin-bottom: -200px;
+}
+
+.logo img {
+	max-width: 100%;
+	height: auto;
+}
+
+.texto {
+	margin-bottom: 30px;
+}
+
+.texto h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+    background-image: linear-gradient(to right, #007bff, #0047b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.texto p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+	max-width: 500px;
+}
+
+button {
+    margin-top: 1rem;
+	padding: 15px 30px;
+	font-size: 24px;
+	border: 2px solid var(--clr-main);
+	border-radius: 5px;
+	background-color: var(--clr-main);
+	color: #fff;
+	cursor: pointer;
+    transition: background-color .2s, color .2s;
+}
+
+button:hover{
+    background-color: var(--clr-white);
+    color: var(--clr-main);
+}
+
+.contenedor {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,.1);
+  }
